@@ -86,7 +86,6 @@ nav {
     height:0;
     padding-top:90.0000%;
     padding-bottom:0;
-    box-shadow:0 2px 8px 0 rgba(63,69,81,0.16);
     margin-top: 0.6em; margin-bottom: 0.9em;
     overflow:visible;
     border-radius:8px;
@@ -135,6 +134,9 @@ nav {
     width: 0;
     background: #ef4b42;
 
+    -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
 
 .mainMenu a:first-child {
     margin:0;
@@ -194,7 +196,8 @@ nav {
         font-size: 17px;
         font-family: roboto;
 
-        
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
     }
 
     .brand-btn:hover, .brand-btn:focus {
@@ -257,7 +260,8 @@ nav {
             margin-left: auto;
             margin-right: auto;
             text-align: center;
-           
+            -webkit-transition: all .2s ease-in;
+            transition: all .2s ease-in
         }
 
         #services ul li div:hover {
@@ -326,13 +330,18 @@ nav {
         padding: 25px;
         cursor: pointer;
 
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
     }
 
     .brand-logos div a:hover, .brand-logos div a:focus {        
-        border-right: 2px solid #eaeaea !important;
+        border-right: 2px solid #f8f8f8 !important;
 
-       
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
 
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
     }
 
     .brand-logos div a:not(:last-child) {
@@ -367,6 +376,8 @@ nav {
         #topList a:hover {
             border:none !important;
         
+            -webkit-transform: scale(1);
+            transform: scale(1);
         }
 
             #topList a span {
@@ -426,7 +437,9 @@ footer {
             position: absolute;
             width: 0;
             background: #fff;
-          
+            
+            -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
         }
 
         .footer-cat-links a:hover:after, .footer-cat-links a:focus:after {
@@ -553,6 +566,8 @@ footer {
         background-color: #ff6962;
         border-radius: 5px;
 
+        -webkit-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.75)
     }
 
 #owner {
@@ -594,7 +609,7 @@ footer {
         height: 32px;
         width: 40px;
         cursor: pointer;
-        z-index: 2;
+        z-index: auto;
         position: relative;
         right: 0;
         padding-right: 2em;
@@ -604,9 +619,8 @@ footer {
     .menu-btn-3 span,
     .menu-btn-3 span::before,
     .menu-btn-3 span::after {
-        background: #fff; 
         content: '';
-        position: absolute;
+        position: fixed;
         width: 40px;
         height: 6px;         
         margin-top: 13px;
@@ -691,7 +705,8 @@ footer {
         padding: 1em 2em 2em;
         z-index: 1;
         
-       
+        -webkit-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
     }
 
     .mainMenu.active  {
@@ -710,7 +725,9 @@ footer {
             padding: 0 2em 0 0;
             opacity: 0;
             visibility: hidden;
-           
+            
+            -webkit-transition: all .6s ease-in-out;
+            transition: all .6s ease-in-out;
         }
         
         .mainMenu a:last-child {
@@ -1000,7 +1017,7 @@ footer {
 /* Mini Tablet ----------- */  
 @media only screen and (max-width : 600px) {  
      section {
-        display: block;
+      
         padding: 0 2em 5em;
     }
 
@@ -1549,7 +1566,7 @@ div.elem-group {
 	color: #FFF;
 	margin: 0 auto;
 	background: #1abc9c;
-	font-size: 18px;
+	font-size: 14px;
 	text-align: center;
 	font-style: normal;
 	width: 100%;
