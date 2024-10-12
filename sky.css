@@ -633,7 +633,7 @@ footer {
         width: 40px;
         height: 6px;         
         margin-top: 13px;
-        
+        index: 2;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     
@@ -712,7 +712,7 @@ footer {
         background-color: ;
         width: 100%;
         padding: 1em 2em 2em;
-    
+    index: 2;
         
         -webkit-transition: all 1s ease-in-out;
         transition: all 1s ease-in-out;
