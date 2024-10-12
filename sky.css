@@ -81,7 +81,7 @@ nav {
 .navbar-brand {
 
  padding: 18px 0;
-   position: fix;
+   position: fixed;
    width: fit-content;
     height:0;
     padding-top:90.0000%;
@@ -103,8 +103,8 @@ nav {
 position: fixed;
         top: 0;
         right: 0;
-        background-color: #ef4b42;
-        width: 100%;
+        background-color: #;
+        width: 100%;ef4b42
         padding: 1em 2em 2em;
         z-index: 1;
         
@@ -627,7 +627,8 @@ footer {
     }
 
     .menu-btn-3 {
-        height: 32px;
+        
+	       height: 32px;
         width: 40px;
         cursor: pointer;
         z-index: 2;
@@ -642,6 +643,7 @@ footer {
     .menu-btn-3 span::after {
         content: '';
         position: relative;
+	      background: #fff; 
         width: 40px;
         height: 6px;         
         margin-top: 13px;
