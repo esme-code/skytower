@@ -100,10 +100,10 @@ nav {
 }
 .mainMenu {
     float:left;
-position: fixed;
+       position: fixed;
         top: 0;
         right: 0;
-        background-color: #;
+        background-color: #ef4b42;
         width: 100%;ef4b42
         padding: 1em 2em 2em;
         z-index: 1;
@@ -114,7 +114,7 @@ position: fixed;
 }
 
 .mainMenu a:hover, .mainMenu a:focus {
-    color: #ef4b42;
+    color: #black;
 }
 
 
