@@ -214,6 +214,7 @@ nav {
     height:430px;
 }
 
+
 #delivery {
     background-color: #f6f6f6
 }
@@ -231,7 +232,7 @@ nav {
     }
 
     .delivery-video {
-        float: center;    
+       text-align: center; 
     }
 
 #services ul {
