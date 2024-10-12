@@ -113,61 +113,14 @@ position: fixed;
 	
 }
 
-.mainMenu a {
-    padding:15px 0;
-    margin-left: 35px;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 500;
-    color: #fb5454;
-    position: -webkit-sticky;
-
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
 .mainMenu a:hover, .mainMenu a:focus {
     color: #ef4b42;
 }
 
-.mainMenu a:not(:last-child):hover:after,
-.mainMenu a:not(:last-child):focus:after {
-    width: auto;
-    left: 0;
+
+
 }
 
-.mainMenu a:after {
-    top: 40px;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    width: 0;
-    background: #ef4b42;
-
-    -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-}
-
-.mainMenu a:first-child {
-    margin:0;
-}
-
-.mainMenu a:last-child {
-    border: 2px solid #ef4b42;
-    padding: 8px 16px !important;
-    font-size: 17px;
-    border-radius: 20px;
-    text-align: center;
-    color: ef4b42;
-}
-
-.mainMenu a:last-child:hover,
-.mainMenu a:last-child:focus {
-    background-color:#00C99D ;
-    color:;
-}
 
 #intro {
     padding-top: 3em;
@@ -737,52 +690,7 @@ footer {
         padding-top:5em;
     }
 
-        .mainMenu a {
-            display: inline-block;
-            text-align: right;
-            width: 100%;
-            list-style-type: none;
-            margin: 0;
-            color: #fff;
-            pointer-events: none;
-            line-height: 0;
-            padding: 0 2em 0 0;
-            opacity: 0;
-            visibility: hidden;
-            
-            -webkit-transition: all .6s ease-in-out;
-            transition: all .6s ease-in-out;
-        }
-        
-        .mainMenu a:last-child {
-            background-color:ff6962 ;
-            color: #fff;
-            border-color: #fff;
-            width: 120px;
-            float: right;
-            text-align: center;
-            margin-top: 20px;
-        }
 
-
-        .mainMenu a.active {
-            pointer-events: auto;
-            line-height: 1.3;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .mainMenu a.active:hover {
-            background-color: 2;
-        }
-
-        .mainMenu a.active:first-child {
-            border-top: 1px solid;
-            margin-top: 18px;
-            padding-top: 30px;
-        }
 
             .mainMenu a span {
                 color: #fff;
