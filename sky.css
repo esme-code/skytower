@@ -231,8 +231,11 @@ nav {
         margin-bottom: 40px;
     }
 
-    .delivery-video {
+  .delivery-video {
        text-align: center; 
+        margin-left: auto; 
+        margin-right: auto;
+    } 
     }
 
 #services ul {
