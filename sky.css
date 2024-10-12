@@ -1140,6 +1140,7 @@ footer {
     .col-6 {
         width: 100%;
         display: block;
+	    align: right; 
     }
 
     .slider .slide-text {
