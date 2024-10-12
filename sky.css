@@ -214,17 +214,11 @@ nav {
     text-align: center;
 margin-left: auto;
 	margin-right: auto;
-	width: 80%; 
-		heigh: 80%; 
+	widht: auto;
+	height: auto;
 	
  
 }
-
-#development-img img {
-    height:430px;
-
-}
-
 
 #delivery {
     background-color: #f6f6f6
