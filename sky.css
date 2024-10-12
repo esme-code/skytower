@@ -709,13 +709,14 @@ footer {
         }
 
     .mainMenu {
-        position: fix;
+      
+	 position: fixed;
         top: 0;
         right: 0;
-        background-color: yellow;
+        background-color: #ef4b42;
         width: 100%;
         padding: 1em 2em 2em;
-    index: 1;
+        z-index: 1;
         
         -webkit-transition: all 1s ease-in-out;
         transition: all 1s ease-in-out;
@@ -726,7 +727,7 @@ footer {
     }
 
         .mainMenu a {
-            display: list-item;
+            display: inline-block;
             text-align: right;
             width: 100%;
             list-style-type: none;
@@ -743,7 +744,7 @@ footer {
         }
         
         .mainMenu a:last-child {
-            background-color: ;
+            background-color:ff6962 ;
             color: #fff;
             border-color: #fff;
             width: 120px;
