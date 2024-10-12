@@ -107,7 +107,7 @@ nav {
     font-size: 20px;
     text-decoration: none;
     font-weight: 500;
-    color: white;
+    color: #fb5454;
     position: -webkit-sticky;
 
     -webkit-transition: all .3s ease-in-out;
@@ -115,7 +115,7 @@ nav {
 }
 
 .mainMenu a:hover, .mainMenu a:focus {
-    color: #white;
+    color: #54FBFB;
 }
 
 .mainMenu a:not(:last-child):hover:after,
