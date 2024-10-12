@@ -100,8 +100,7 @@ nav {
 }
 .mainMenu {
     float:left;
-	index: 1
-	background: gray;
+
 	
 }
 
@@ -119,7 +118,7 @@ nav {
 }
 
 .mainMenu a:hover, .mainMenu a:focus {
-    color: #009675;
+    color: #ef4b42;
 }
 
 .mainMenu a:not(:last-child):hover:after,
@@ -136,7 +135,7 @@ nav {
     left: 50%;
     position: absolute;
     width: 0;
-    background: white;
+    background: #ef4b42;
 
     -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -710,13 +709,13 @@ footer {
         }
 
     .mainMenu {
-        position: absolute;
+        position: fix;
         top: 0;
         right: 0;
-        background-color: ;
+        background-color: yellow;
         width: 100%;
         padding: 1em 2em 2em;
-    index: 2;
+    index: 1;
         
         -webkit-transition: all 1s ease-in-out;
         transition: all 1s ease-in-out;
