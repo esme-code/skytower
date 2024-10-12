@@ -132,7 +132,7 @@ nav {
     left: 50%;
     position: absolute;
     width: 0;
-    background: ef4b42;
+    background: #FEF2F1;
 
     -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -153,7 +153,7 @@ nav {
 
 .mainMenu a:last-child:hover,
 .mainMenu a:last-child:focus {
-    background-color: #ef4b42;
+    background-color: ##FEF2F1;
     color: white;
 }
 
@@ -618,7 +618,7 @@ footer {
         height: 32px;
         width: 40px;
         cursor: pointer;
-        z-index: 2;
+        z-index: 3;
         position: relative;
         right: 0;
         padding-right: 2em;
