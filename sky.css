@@ -115,7 +115,7 @@ nav {
 }
 
 .mainMenu a:hover, .mainMenu a:focus {
-    color: #54FBFB;
+    color: #009675;
 }
 
 .mainMenu a:not(:last-child):hover:after,
