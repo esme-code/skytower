@@ -81,8 +81,8 @@ nav {
 .navbar-brand {
 
  padding: 18px 0;
-   position: auto;
-   width: 90%;
+   position: fix;
+   width: fit-content;
     height:0;
     padding-top:90.0000%;
     padding-bottom:0;
@@ -98,7 +98,7 @@ nav {
     text-align: center;
 }
 .mainMenu {
-    float:center;
+    float:left;
 }
 
 .mainMenu a {
@@ -132,7 +132,7 @@ nav {
     left: 50%;
     position: absolute;
     width: 0;
-    background: #FEF2F1;
+    background: white;
 
     -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
