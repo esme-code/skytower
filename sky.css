@@ -618,7 +618,7 @@ footer {
         height: 32px;
         width: 40px;
         cursor: pointer;
-        z-index: auto;
+        z-index: 2;
         position: relative;
         right: 0;
         padding-right: 2em;
@@ -629,7 +629,7 @@ footer {
     .menu-btn-3 span::before,
     .menu-btn-3 span::after {
         content: '';
-        position: fixed;
+        position: relative;
         width: 40px;
         height: 6px;         
         margin-top: 13px;
@@ -709,10 +709,10 @@ footer {
         position: static;
         top: 0;
         right: 0;
-        background-color: #ef4b42;
+        background-color: #FEF2F1;
         width: 100%;
         padding: 1em 2em 2em;
-        z-index: 1;
+        z-index: 2;
         
         -webkit-transition: all 1s ease-in-out;
         transition: all 1s ease-in-out;
@@ -773,7 +773,7 @@ footer {
                 color: #fff;
             }
             .mainMenu a:after {
-                display:none;
+                display:sticky;
             }
 
     .brand-logos div {
