@@ -107,7 +107,7 @@ nav {
     font-size: 20px;
     text-decoration: none;
     font-weight: 500;
-    color: #2E2E2E;
+    color: white;
     position: -webkit-sticky;
 
     -webkit-transition: all .3s ease-in-out;
@@ -115,7 +115,7 @@ nav {
 }
 
 .mainMenu a:hover, .mainMenu a:focus {
-    color: #ef4b42;
+    color: #white;
 }
 
 .mainMenu a:not(:last-child):hover:after,
@@ -697,7 +697,7 @@ footer {
         }
 
     .mainMenu {
-        position: fixed;
+        position: static;
         top: 0;
         right: 0;
         background-color: #ef4b42;
@@ -1480,7 +1480,7 @@ div.elem-group {
 
  
 .form-style-6{
-	max-width: 500px;
+	max-width: 300px;
 	padding: 10px 20px;
 	background: #f4f7f8;
 	margin: 10px auto;
@@ -1495,7 +1495,7 @@ div.elem-group {
 }
 .form-style-6 legend {
 	font-size: 1.4em;
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
 .form-style-6 label {
 	display: block;
@@ -1515,7 +1515,7 @@ div.elem-group {
 	background: rgba(255,255,255,.1);
 	border: none;
 	border-radius: 4px;
-	font-size: 15px;
+	font-size: 12px;
 	margin: 0;
 	outline: 0;
 	padding: 10px;
@@ -1545,7 +1545,7 @@ div.elem-group {
 	height:35px;
 }
 .form-style-6 .number {
-	background: turquoise;
+	background: #00634d;
 	color: #fff;
 	height: 30px;
 	width: 30px;
