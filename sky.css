@@ -56,7 +56,7 @@ p {
     padding: 0;
     margin-top: 10px;
     text-align: right;
-    color:#2E2E2E
+    color:#1c1c1c
 }
 
     #topInfo li {
@@ -81,7 +81,7 @@ nav {
 .navbar-brand {
 
  padding: 18px 0;
-   position: fixed;
+   position: auto;
    width: 90%;
     height:0;
     padding-top:90.0000%;
@@ -132,7 +132,7 @@ nav {
     left: 50%;
     position: absolute;
     width: 0;
-    background: #ef4b42;
+    background: white;
 
     -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -148,7 +148,7 @@ nav {
     font-size: 17px;
     border-radius: 20px;
     text-align: center;
-    color: #ef4b42;
+    color: white;
 }
 
 .mainMenu a:last-child:hover,
