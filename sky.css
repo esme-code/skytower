@@ -99,7 +99,7 @@ nav {
     text-align: center;
 }
 .mainMenu {
-    float:left;
+       float:center;
        position: fixed;
         top: 0;
         right: 0;
@@ -118,7 +118,13 @@ nav {
 }
 
 
-
+.mainMenu a {
+    padding:15px 0;
+    margin-left: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
 }
 
 
