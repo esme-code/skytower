@@ -90,8 +90,7 @@ nav {
     overflow:visible;
     border-radius:8px;
     will-change: auto;
-	index: 1;
-	background: #00C99D;
+	
 
 }
 
@@ -101,6 +100,9 @@ nav {
 }
 .mainMenu {
     float:left;
+	index: 1
+	background: gray;
+	
 }
 
 .mainMenu a {
