@@ -132,7 +132,7 @@ nav {
     left: 50%;
     position: absolute;
     width: 0;
-    background: white;
+    background: ef4b42;
 
     -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -148,7 +148,7 @@ nav {
     font-size: 17px;
     border-radius: 20px;
     text-align: center;
-    color: white;
+    color: ef4b42;
 }
 
 .mainMenu a:last-child:hover,
