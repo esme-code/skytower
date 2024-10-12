@@ -154,7 +154,7 @@ nav {
 .mainMenu a:last-child:hover,
 .mainMenu a:last-child:focus {
     background-color: ;
-    color: white;
+    color:;
 }
 
 #intro {
@@ -618,7 +618,7 @@ footer {
         height: 32px;
         width: 40px;
         cursor: pointer;
-        z-index: 3;
+        z-index: 2;
         position: relative;
         right: 0;
         padding-right: 2em;
@@ -712,7 +712,7 @@ footer {
         background-color: ;
         width: 100%;
         padding: 1em 2em 2em;
-        z-index: 1;
+    
         
         -webkit-transition: all 1s ease-in-out;
         transition: all 1s ease-in-out;
