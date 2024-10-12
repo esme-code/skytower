@@ -111,7 +111,7 @@ nav {
     text-decoration: none;
     font-weight: 500;
     color: #fb5454;
-    position: -webkit-sticky;
+    position: relative;
 
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -777,7 +777,7 @@ footer {
                 color: #fff;
             }
             .mainMenu a:after {
-                display:sticky;
+                display:none;
             }
 
     .brand-logos div {
